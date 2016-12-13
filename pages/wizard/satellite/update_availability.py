@@ -108,6 +108,7 @@ class UpdateAvailability(QCIPage):
         self.library.click()
 
     def click_new_environment_path(self):
+        self.scroll_to_element(self.new_environment_path)
         self.new_environment_path.click()
 
     def click_submit_button(self):
